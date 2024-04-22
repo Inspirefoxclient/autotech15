@@ -23,9 +23,7 @@ body {
 }
 
 
-/* ===================  
-header start  
-===============================*/
+
 /* ===================  
 header start  
 ===============================*/
@@ -281,8 +279,8 @@ header end
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 150px;
-    height: 100vh !important;
-    min-height: 850px;
+    height: 60vh !important;
+    min-height: 750px;
 }
 
 .slider-bg-img-1 {
@@ -2006,6 +2004,11 @@ contact page  css
     gap: 10px;
 }
 
+.ft-info-li-next {
+    display: flex;
+    align-items: flex-start;
+}
+
 .footer-contact-icon {
     max-width: 40px;
     width: 100%;
@@ -3009,6 +3012,7 @@ Privacy Policy page end
 
 .testimonial-wrapper {
     padding: 100px 0px;
+    display: none;
 }
 
 .testimonial-wrapper .testi-slider-wrapper {
@@ -3848,7 +3852,7 @@ Privacy Policy page end
 
 
 /************************************* footer start *************************************/
-.footer-content {
+/* .footer-content {
     background: #232429;
     position: relative;
     overflow: hidden;
@@ -4219,7 +4223,7 @@ Privacy Policy page end
     line-height: normal;
     margin-bottom: 0;
     padding-bottom: 0;
-}
+} */
 
 /************************************* footer end *************************************/
 

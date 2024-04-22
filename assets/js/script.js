@@ -10,6 +10,11 @@ var swiper1 = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 });
 //  Initialize Swiper end
 
@@ -67,6 +72,6 @@ $(document).ready(function () {
 // landing page header
 var remove_navbar = document.getElementById("remove-show-class");
 
-remove_navbar.addEventListener("click", function () {
+remove_navbar = document.addEventListener("click", function () {
     remove_navbar.classList.remove("show");
 });

@@ -3012,7 +3012,7 @@ Privacy Policy page end
 
 .testimonial-wrapper {
     padding: 100px 0px;
-    display: none;
+    display: none !important;
 }
 
 .testimonial-wrapper .testi-slider-wrapper {

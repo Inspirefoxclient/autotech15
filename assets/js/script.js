@@ -11,10 +11,10 @@ var swiper1 = new Swiper(".mySwiper", {
         clickable: true,
     },
     
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    //   },
 });
 //  Initialize Swiper end
 

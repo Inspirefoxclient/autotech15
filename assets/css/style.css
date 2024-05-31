@@ -542,7 +542,9 @@ position: relative;
 /* =========================== 
 Service-section-02  start 
 =============================  */
-
+.product-new-padding {
+    padding-bottom: 100px;
+}
 .Service-section-02 {
 
     margin-top: 100px;
@@ -602,8 +604,8 @@ Service-section-02  start
 
     position: relative;
     width: 100%;
-    /* max-width: 370px;
-    height: 380px; */
+    max-width: 100%;
+    height: 380px;
 }
 
 .card-Manage::after {
@@ -612,7 +614,7 @@ Service-section-02  start
     left: 0;
     content: "";
     width: 100%;
-    height: 32%;
+    height: 50%;
     background: rgba(35, 36, 41, 0.82);
     clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
 
@@ -620,7 +622,7 @@ Service-section-02  start
 
 .card-tital {
     width: 100%;
-    max-width: 370px;
+    max-width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -738,7 +740,8 @@ Service-section-02  start
 
 }
 
-@media(max-width:992px) {
+
+@media(max-width: 768px) {
     .Service-card-3 {
 
         margin-top: 40px;
@@ -747,6 +750,13 @@ Service-section-02  start
 
 @media(max-width:768px) {
     .Service-card-2 {
+
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 992px) {
+    .Service-card-4 {
 
         margin-top: 40px;
     }
@@ -1774,11 +1784,14 @@ contact page  css
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    /* width: 35px;
+    height: 35px; */
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: #232429;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 22px;
     color: #fff;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
@@ -2556,7 +2569,8 @@ Privacy Policy page end
 
 .ab-hero-banner {
     position: relative;
-    background: url('../images/ab-banner.png') no-repeat;
+    /* background: url('../images/ab-banner.png') no-repeat; */
+    background: url('../images/img3.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 480px;
@@ -4383,7 +4397,15 @@ Privacy Policy page end
 	}
 }
 
-
-
+/************************************* lamination-view start *************************************/
+.lamination-view img {
+    width: 336px;
+    height: 260px;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    transition: all 500ms ease;
+    transform: scale(1);
+}
+/************************************* lamination-view end *************************************/
 
 /* flotting icone css end */

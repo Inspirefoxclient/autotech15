@@ -570,6 +570,7 @@ Service-section-02  start
 }
 
 .Service-card-1::after {
+    /* display: none; */
     position: absolute;
     content: "";
     width: 26px;
@@ -1506,11 +1507,23 @@ contact page  css
 }
 
 .product-item {
-    height: 100%;
-    background-color: #fff;
-    border: 1px solid #DBDBDB;
+    /* height: 100%; */
+    /* background-color: #fff; */
+    background: url('../images/product-back.png') no-repeat;
+    /* border: 1px solid #DBDBDB; */
     transition: all 500ms ease;
     padding: 30px 20px;
+    position: relative;
+    /* background: url('../images/ab-banner.png') no-repeat; */
+    background-position: center;
+    background-size: cover;
+    /* max-height: 480px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
 }
 
 .product-item:hover {
@@ -1519,9 +1532,9 @@ contact page  css
 }
 
 .product-item-img {
-    background-color: #fff;
-    position: relative;
-    overflow: hidden;
+    /* background-color: #fff; */
+    /* position: relative;
+    overflow: hidden; */
 }
 
 .product-item-img-margin {
@@ -1537,7 +1550,6 @@ contact page  css
     height: auto; */
     width: auto;
     height: 260px;
-    mix-blend-mode: multiply;
     transition: all 500ms ease;
     transform: scale(1);
 }
@@ -1552,7 +1564,8 @@ contact page  css
 }
 
 .product-item-title a {
-    color: #232429;
+    /* color: #232429; */
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     line-height: 130%;
@@ -2467,10 +2480,54 @@ contact page  css
 /************************************* Product-view end *************************************/
 
 /* ============================================================================
+warranty  page start 
+================================================================================ */
+.Warranty-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 117.5%;
+    text-transform: capitalize;
+}
+.Warranty-sub-title {
+    color: #999B9F;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Warranty-div .about-title {
+    font-size: 18px;
+    color: #000;
+}
+.Warranty-div .about-title-desc {
+    font-size: 16px;
+}
+
+/* .warranty-title-policy {
+    line-height: 1.2em;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+ul.warranty-ul {
+    padding-left: 10px;
+}
+li.warranty-li {
+    font-size: 18px;
+    color: #808080;
+    font-weight: 500;
+    
+}
+li.warranty-li span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #171717;
+} */
+
+
+/* ============================================================================
 Privacy Policy  page start 
 ================================================================================ */
 .compeny-Policy {
-    padding: 100px 10px;
+    padding: 60px 10px;
 }
 
 .title-Policy {
@@ -2488,7 +2545,7 @@ Privacy Policy  page start
 }
 
 .title-Policy-discrition {
-    font-size: 16px;
+    font-size: 18px;
     color: black;
 }
 
@@ -2518,15 +2575,34 @@ Privacy Policy  page start
     color: black;
 }
 
+.Policy-div-area .about-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.Policy-div-area {
+    padding: 80px 15px;
+}
+@media(max-width: 768px) {
+    .Policy-div-area {
+        padding: 60px 15px;
+    }
+}
+@media(max-width: 576px) {
+    .Policy-div-area {
+        padding: 40px 15px;
+    }
+}
+
 /* Warranty-sec */
 
-.Warranty-div {
+/* .Warranty-div {
     margin-top: 20px;
-}
+} */
 
 @media(max-width:768px) {
     .compeny-Policy {
-        padding: 60px 10px;
+        padding: 40px 10px;
     }
 }
 
@@ -4402,7 +4478,7 @@ Privacy Policy page end
     width: 336px;
     height: 260px;
     object-fit: cover;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     transition: all 500ms ease;
     transform: scale(1);
 }
@@ -4414,3 +4490,17 @@ Privacy Policy page end
     object-fit: contain;
 }
 /************************************* 7D-mat-view end *************************************/
+
+/************************************* lamination1-view start *************************************/
+.lamination1-main-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.lamination1-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117.5%;
+    text-transform: capitalize;
+}
+/************************************* lamination1-view end *************************************/

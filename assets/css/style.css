@@ -4501,7 +4501,7 @@ Privacy Policy page end
 /* flotting icone css end */
 /************************************* 7D-mat-view start *************************************/
 .lamination-view img {
-    object-fit: contain;
+    object-fit: cover;
 }
 /************************************* 7D-mat-view end *************************************/
 

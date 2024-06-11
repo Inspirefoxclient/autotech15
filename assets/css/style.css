@@ -1916,7 +1916,13 @@ contact page  css
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
+.ft-footer-text {
+    color: #999B9F;
+    transition: all 0.5s ease-in-out;
+}
+.ft-footer-text:hover {
+    color: var(--bg-theme);
+}
 /************************************* footer end *************************************/
 
 /************************************* Product-view start *************************************/

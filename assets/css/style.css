@@ -1917,11 +1917,8 @@ contact page  css
     padding-bottom: 0;
 }
 .ft-footer-text {
-    color: #999B9F;
-    transition: all 0.5s ease-in-out;
-}
-.ft-footer-text:hover {
     color: var(--bg-theme);
+    transition: all 0.5s ease-in-out;
 }
 /************************************* footer end *************************************/
 
@@ -3651,7 +3648,7 @@ Privacy Policy page end
     border-radius: 0px;
     display: block;
     width: 100%;
-    height: 58px;
+    min-height: 58px;
     color: #686A6F !important;
     font-size: 14px;
     font-weight: 600;

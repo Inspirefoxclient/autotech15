@@ -206,40 +206,42 @@
                         <h2 class="second-title text-dark text-center">Distributor Inquiry form</h2>
                     </div>
                     <div class="col-lg-8 col-md-12 mx-auto">
-                        <form data-aos-duration="1500" data-aos="zoom-in" onsubmit="sendEmail(); return false;"
-                            class="row g-3" enctype="text/plain">
+                        <form class="row g-3 needs-validation" data-aos-duration="1500" data-aos="zoom-in" novalidate action="https://api.web3forms.com/submit"
+                        method="POST">
+                        <input type="hidden" name="access_key" value="12e14c9b-3543-4284-a583-bdedbc04eed7">
+                        
                             <div class="col-md-6">
                                 <label for="inputName" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                                <input type="text" name="Name" class="form-control" id="inputName" placeholder="Your Name">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <input type="email" name="Email" class="form-control" id="inputEmail4" placeholder="Email">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputcompanyName" class="form-label">Company Name</label>
-                                <input type="text" class="form-control" id="inputcompanyName"
+                                <input type="text" name="Company Name" class="form-control" id="inputcompanyName"
                                     placeholder="Company Name">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputMobile" class="form-label">Mobile</label>
-                                <input type="tel" class="form-control" id="inputMobile" placeholder="Mobile">
+                                <input type="tel" name="Mobile No" class="form-control" id="inputMobile" placeholder="Mobile">
                             </div>
                             <div class="col-12">
                                 <label for="inputAddress" class="form-label">Address 1</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Address 1">
+                                <input type="text" name="Address 1" class="form-control" id="inputAddress" placeholder="Address 1">
                             </div>
                             <div class="col-12">
                                 <label for="inputAddress2" class="form-label">Address 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+                                <input type="text" name="Address 2" class="form-control" id="inputAddress2" placeholder="Address 2">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputCity" class="form-label">City</label>
-                                <input type="text" class="form-control" id="inputCity" placeholder="City">
+                                <input type="text" name="City" class="form-control" id="inputCity" placeholder="City">
                             </div>
                             <div class="col-md-4">
                                 <label for="inputState" class="form-label">State</label>
-                                <select id="inputState" class="form-select">
+                                <select id="inputState" name="State" class="form-select">
                                     <option selected>Choose...</option>
                                     <option>Andhra Pradesh</option>
                                     <option>Arunachal Pradesh</option>
@@ -281,11 +283,11 @@
                             </div>
                             <div class="col-md-2">
                                 <label for="inputZip" class="form-label">Zip</label>
-                                <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+                                <input type="text" name="Zip" class="form-control" id="inputZip" placeholder="Zip">
                             </div>
                             <div class="col-md-12">
                                 <label for="message" class="form-label">message</label>
-                                <textarea class="form-control" placeholder="Write a message
+                                <textarea class="form-control" name="Message" rows="4" placeholder="Write a message
                                 " id="message"></textarea>
                             </div>
                             <div class="col-12 d-flex align-items-center justify-content-center">
